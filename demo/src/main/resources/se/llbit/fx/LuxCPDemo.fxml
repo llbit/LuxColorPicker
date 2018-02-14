@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import se.llbit.fx.LuxColorPicker?>
+
+<VBox fx:id="container" alignment="CENTER" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="se.llbit.fx.LuxCPDemoController">
+   <children>
+      <LuxColorPicker fx:id="colorPicker" />
+   </children>
+</VBox>

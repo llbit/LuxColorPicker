@@ -1,0 +1,7 @@
+/.gradle/
+/build/
+/demo/build/
+/demo/out/
+/luxcp/build/
+/luxcp/out/
+/.idea/

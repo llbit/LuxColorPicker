@@ -1,0 +1,12 @@
+plugins {
+  id 'java'
+  id 'application'
+}
+
+sourceCompatibility = targetCompatibility = '1.8'
+
+mainClassName = 'se.llbit.fx.LuxCPDemo'
+
+dependencies {
+  compile project(':luxcp')
+}
