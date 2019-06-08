@@ -7,6 +7,16 @@ sourceCompatibility = targetCompatibility = '1.8'
 
 mainClassName = 'se.llbit.fx.LuxCPDemo'
 
+applicationDefaultJvmArgs = [
+  '-Dprism.order=sw'
+]
+
 dependencies {
   compile project(':luxcp')
+}
+
+jar {
+  manifest {
+    attributes('Main-Class': mainClassName)
+  }
 }

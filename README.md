@@ -77,5 +77,11 @@ The random colors are useful when you don't know exactly what color you want to
 pick - maybe one of the random colors will look nice.
 
 
+## Change Log
+
+* **1.0.1** The background color of the popup window is now set to the JavaFx
+  background color.
+
+
 [1]: https://www.interaction-design.org/literature/article/fitts-s-law-the-importance-of-size-and-distance-in-ui-design
 

@@ -7,7 +7,7 @@ plugins {
 sourceCompatibility = targetCompatibility = '1.8'
 
 group = 'se.llbit'
-version = '1.0'
+version = '1.0.1'
 
 task javadocJar(type: Jar) {
   classifier = 'javadoc'

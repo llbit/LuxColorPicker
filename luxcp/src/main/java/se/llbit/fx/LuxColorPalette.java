@@ -273,8 +273,11 @@ public class LuxColorPalette extends Region implements Initializable {
 
     satValueRect.getChildren().addAll(saturationOverlay, valueOverlay);
 
-    setBackground(new Background(
-        new BackgroundFill(Color.rgb(240, 240, 240), new CornerRadii(4.0), new Insets(0))));
+    setStyle(
+        "-fx-background-color: -fx-background;"
+            + "-fx-background-insets: 0;"
+            + "-fx-background-radius: 4px");
+
     DropShadow dropShadow = new DropShadow();
     dropShadow.setColor(Color.color(0, 0, 0, 0.8));
     dropShadow.setWidth(18);
