@@ -9,6 +9,8 @@ sourceCompatibility = targetCompatibility = '1.8'
 group = 'se.llbit'
 version = '1.0.1'
 
+compileJava.options.encoding = 'UTF-8'
+
 task javadocJar(type: Jar) {
   classifier = 'javadoc'
   from javadoc
